@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/CountryTable renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#eee",
+      "flex": 1,
+      "flexDirection": "row",
+      "margin": 5,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "yellow",
+        "width": 100,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "black",
+          "borderBottomColor": "#C1C0B9",
+          "borderBottomWidth": 1,
+          "height": 40,
+        }
+      }
+    />
+    <RCTScrollView
+      scrollEnabled={false}
+      showsVerticalScrollIndicator={false}
+      style={
+        {
+          "backgroundColor": "white",
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            [
+              undefined,
+              {
+                "borderBottomWidth": 1,
+                "borderColor": "#C1C0B9",
+                "borderLeftWidth": 1,
+              },
+            ]
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      bounces={false}
+      horizontal={true}
+    >
+      <View>
+        <View>
+          <View
+            style={
+              [
+                undefined,
+                {
+                  "borderBottomWidth": 1,
+                  "borderColor": "#C1C0B9",
+                  "borderLeftWidth": 1,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  undefined,
+                  {
+                    "width": 1090,
+                  },
+                  {
+                    "flexDirection": "row",
+                    "overflow": "hidden",
+                  },
+                  {
+                    "backgroundColor": "black",
+                    "height": 40,
+                  },
+                ]
+              }
+            />
+          </View>
+          <RCTScrollView
+            bounces={false}
+            onScroll={[Function]}
+            scrollEventThrottle={16}
+            style={
+              {
+                "marginTop": -1,
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  [
+                    undefined,
+                    {
+                      "borderBottomWidth": 1,
+                      "borderColor": "#C1C0B9",
+                      "borderLeftWidth": 1,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

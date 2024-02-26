@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/CountryList renders correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "margin": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    CHOOSE COUNTRIES
+  </Text>
+  <View
+    style={
+      {
+        "marginLeft": 20,
+        "marginRight": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      data={[]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "height": "70%",
+        }
+      }
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "bottom": "5%",
+        "justifyContent": "center",
+        "left": "20%",
+        "position": "absolute",
+        "right": "20%",
+        "width": "60%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 8,
+          "flexDirection": "row",
+          "height": 50,
+          "margin": 5,
+          "opacity": 1,
+          "width": "60%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "height": "auto",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 4,
+              "elevation": 3,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "black",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "letterSpacing": 0.25,
+                "lineHeight": 21,
+              }
+            }
+          >
+            See Data
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

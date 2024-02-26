@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "version": ">= 7.3.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "ios": {
+        "simulator": true
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "REACT_MOBILE_BACKEND_ZAREGO": "http://44.211.157.217"
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
